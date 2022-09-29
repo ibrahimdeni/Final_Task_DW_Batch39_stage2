@@ -25,7 +25,7 @@ function NavBar() {
       <Container fluid>
         <div className="icon">
           <Navbar.Brand href="#">
-            <img src={iconTJ} alt="" />
+            <img src={iconTJ} className="shadow" alt="" />
           </Navbar.Brand>
         </div>
         <div className="ms-auto">

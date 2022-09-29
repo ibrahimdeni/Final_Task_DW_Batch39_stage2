@@ -66,3 +66,28 @@
 .author {
   margin: 4% 5%;
 }
+
+.imgdtl {
+  width: 90%;
+}
+
+.text_dtl {
+  width: 90%;
+  text-align: justify;
+  text-justify: center;
+}
+
+.tab-dtl {
+  margin-left: 40px;
+}
+
+/* for new journey */
+.title-NJ {
+  width: 90%;
+}
+.form_NJ {
+  width: 80%;
+}
+.btn_post {
+  width: 20%;
+}

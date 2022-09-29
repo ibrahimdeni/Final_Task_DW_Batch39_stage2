@@ -1,5 +1,6 @@
 import Layout from "../components/NavigationBar";
 import Journey from "../components/Journey";
+import Bookmarkcards from "../components/Bookmarkcards";
 // import BGTJ from "../assets/images/BGTJ.png";
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
     <>
       <Layout />
       <div className="BGHome">
-        <div className="w-75" style={{ position: "fixed", top: "20%" }}>
+        <div className="w-75" style={{ position: "absolute", top: "20%" }}>
           <h1 className="text-light title-home">The Journey</h1>
           <h1 className="text-light title-home">you ever dreamed of.</h1>
           <p className="text-light text-home fs-5">
@@ -21,6 +22,7 @@ function Home() {
         <img className="BGTJ" alt="" />
       </div>
       <Journey />
+      <Bookmarkcards />
     </>
   );
 }

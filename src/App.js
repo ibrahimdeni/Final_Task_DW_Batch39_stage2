@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Detail from "./pages/DetailJourney";
+import NewJourney from "./pages/NewJourney";
+import BookMark from "./pages/Bookmark";
 
 function App() {
   return (
@@ -15,6 +17,12 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/detail" element={<Detail />} />
+      </Routes>
+      <Routes>
+        <Route path="/newjourney" element={<NewJourney />} />
+      </Routes>
+      <Routes>
+        <Route path="/bookmark" element={<BookMark />} />
       </Routes>
     </>
   );
